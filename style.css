@@ -16,7 +16,11 @@
 .navbar{
     height: 12%;
     display: flex;
+    color: #ffffff;
     align-items: center;
+}
+.navbar h3{
+    cursor: pointer;
 }
 .logo{
     width: 50px;
@@ -42,3 +46,61 @@ nav ul li a{
     color: #fff;
     font-size: 13px;
 }
+.row{
+    display: flex;
+    height: 88%;
+    color: #ffffff;
+    align-items: center;
+}
+.col{
+   flex-basis: 45%; /* Espace en largeur*/
+}
+h1{
+    color: #ffffff;
+    font-size: 100px;
+}
+h5{
+    color: #000000;
+}
+
+p{
+    color: #ffffff;
+    font-size: 11px;
+    line-height: 15px;
+}
+button{
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #ffffff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+}
+.card1{
+    background-image: url(images/pic-1.png);
+}
+.card2{
+    background-image: url(images/pic-2.png);
+}
+.card3{
+    background-image: url(images/pic-3.png);
+}
+.card4{
+    background-image: url(images/pic-4.png);
+}
+
